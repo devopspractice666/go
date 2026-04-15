@@ -15,6 +15,10 @@ func main() {
 	}
 	var fullInfo Data
 	err = json.Unmarshal(data, &fullInfo)
+	if err != nil {
+		fmt.Println("Ошибка при парсинге данных")
+		panic("Ошибка при парсинге данных")
+	}
 	fmt.Println("Номер телефона ресторана:", fullInfo.Restaurant.Phone)
 
 }

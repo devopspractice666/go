@@ -1,0 +1,127 @@
+{
+  "restaurant": {
+    "name": "Уютное Кафе",
+    "address": {
+      "city": "Москва",
+      "street": "Тверская",
+      "building": "15",
+      "coordinates": {
+        "lat": 55.7646,
+        "lng": 37.6062
+      }
+    },
+    "phone": "+7 (495) 123-45-67",
+    "rating": 4.7,
+    "is_open": true
+  },
+  "menu": {
+    "categories": [
+      {
+        "name": "Салаты",
+        "items": [
+          {
+            "id": 1,
+            "name": "Цезарь",
+            "price": 450,
+            "ingredients": ["курица", "салат", "соус", "сыр"],
+            "weight": 200,
+            "is_vegetarian": false,
+            "spiciness": 0
+          },
+          {
+            "id": 2,
+            "name": "Греческий",
+            "price": 380,
+            "ingredients": ["огурцы", "помидоры", "сыр фета", "маслины"],
+            "weight": 180,
+            "is_vegetarian": true,
+            "spiciness": 0
+          }
+        ]
+      },
+      {
+        "name": "Горячие блюда",
+        "items": [
+          {
+            "id": 3,
+            "name": "Стейк",
+            "price": 890,
+            "ingredients": ["говядина", "перец", "соль"],
+            "weight": 300,
+            "is_vegetarian": false,
+            "spiciness": 2
+          },
+          {
+            "id": 4,
+            "name": "Паста Карбонара",
+            "price": 520,
+            "ingredients": ["паста", "бекон", "сыр", "яйцо"],
+            "weight": 250,
+            "is_vegetarian": false,
+            "spiciness": 1
+          },
+          {
+            "id": 5,
+            "name": "Суп-пюре",
+            "price": 320,
+            "ingredients": ["тыква", "сливки", "имбирь"],
+            "weight": 300,
+            "is_vegetarian": true,
+            "spiciness": 1
+          }
+        ]
+      },
+      {
+        "name": "Напитки",
+        "items": [
+          {
+            "id": 6,
+            "name": "Капучино",
+            "price": 180,
+            "ingredients": ["кофе", "молоко"],
+            "weight": 200,
+            "is_vegetarian": true,
+            "spiciness": 0
+          },
+          {
+            "id": 7,
+            "name": "Свежевыжатый сок",
+            "price": 250,
+            "ingredients": ["апельсин"],
+            "weight": 300,
+            "is_vegetarian": true,
+            "spiciness": 0
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "user": "Анна",
+      "rating": 5,
+      "comment": "Очень вкусно, особенно стейк!",
+      "date": "2024-03-15",
+      "likes": 12
+    },
+    {
+      "user": "Михаил",
+      "rating": 4,
+      "comment": "Хорошее место, но долго готовят",
+      "date": "2024-03-14",
+      "likes": 5
+    },
+    {
+      "user": "Елена",
+      "rating": 5,
+      "comment": "Лучший ресторан в городе!",
+      "date": "2024-03-10",
+      "likes": 24
+    }
+  ],
+  "statistics": {
+    "total_reviews": 3,
+    "average_rating": 4.67,
+    "popular_dishes": ["Стейк", "Цезарь", "Паста Карбонара"]
+  }
+}

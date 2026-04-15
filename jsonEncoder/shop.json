@@ -1,0 +1,36 @@
+{
+  "shop_name": "Продуктовый рай",
+  "address": "ул. Центральная, 15",
+  "is_open": true,
+  "working_hours": {
+    "monday": "9:00-21:00",
+    "tuesday": "9:00-21:00",
+    "wednesday": "9:00-21:00",
+    "thursday": "9:00-21:00",
+    "friday": "9:00-21:00",
+    "saturday": "10:00-18:00",
+    "sunday": "10:00-16:00"
+  },
+  "products": [
+    {
+      "name": "Хлеб",
+      "price": 50,
+      "in_stock": true
+    },
+    {
+      "name": "Молоко",
+      "price": 80,
+      "in_stock": true
+    },
+    {
+      "name": "Шоколад",
+      "price": 120,
+      "in_stock": false
+    }
+  ],
+  "employees": [
+    "Анна",
+    "Иван",
+    "Мария"
+  ]
+}

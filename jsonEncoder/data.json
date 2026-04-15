@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Анна",
+      "notes": [
+        {
+          "id": 1,
+          "title": "Купить продукты",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Позвонить маме",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "name": "Иван",
+      "notes": [
+        {
+          "id": 1,
+          "title": "Выучить Go",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Сходить в спортзал",
+          "completed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Анна",
+      "notes": [
+        {
+          "id": 1,
+          "title": "Стать хорошим devops инженером!",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Стать хорошим devops инженером!",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "name": "Иван",
+      "notes": [
+        {
+          "id": 1,
+          "title": "Стать хорошим devops инженером!",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Стать хорошим devops инженером!",
+          "completed": true
+        }
+      ]
+    }
+  ]
+}
